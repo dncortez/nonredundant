@@ -1,0 +1,14 @@
+This script was built to work with python 3.x. To run it simply type 
+
+python nonredundant.py 	[--help] [--check] [--fmt file_extension] [--silent] input_folder
+
+  --help	Prints this message
+  --check	Checks if the generated database is in fact non redundant and if all
+		the proteins of the input proteomes have a counterpart in the non
+		redundant database
+  --justckeck	Only performs checks, without building the NR database.
+  --fmt		Sets file_extension as the file extension of the proteome files in
+		the input folder. Default: ".faa"
+  --silent	Minimizes text output
+
+  input_folder	Path to the folder where all input proteomes are located
